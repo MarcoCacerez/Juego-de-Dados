@@ -18,12 +18,12 @@ function JuegoDados(numeroJuego, j1, j2){
     //se utilizo Math.floor debido a que el Math.random devuelve numeros decimales entre 0 y 1
     this.tirarDados = function() {
         //Tiradas del jugador 1
-        this.jugador1.caraDado1 = Math.floor((Math.random()*7)+1); 
-        this.jugador1.caraDado2 = Math.floor((Math.random()*7)+1); 
+        this.jugador1.caraDado1 = Math.floor((Math.random()*6)+1); 
+        this.jugador1.caraDado2 = Math.floor((Math.random()*6)+1); 
 
         //Tiradas del jugador 2
-        this.jugador2.caraDado1 = Math.floor((Math.random()*7)+1); 
-        this.jugador2.caraDado2 = Math.floor((Math.random()*7)+1); 
+        this.jugador2.caraDado1 = Math.floor((Math.random()*6)+1); 
+        this.jugador2.caraDado2 = Math.floor((Math.random()*6)+1); 
     }
 
     //funcion empleada para poder determinar que jugador gano el juego
